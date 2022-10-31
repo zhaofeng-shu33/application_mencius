@@ -1,0 +1,108 @@
+\documentclass[12pt]{ctexart}
+\def\version{1.0}
+\newenvironment{smaller}{\zihao{5}}{\zihao{-4}}
+% set the left/right margin such that the main title can be written within one line
+\usepackage[left=30mm]{geometry}
+\usepackage{enumitem}
+\AddEnumerateCounter{\chinese}{\chinese}{}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{longtable}
+\fancypagestyle{runningpage}
+{
+  \fancyhead{}
+  \fancyhead[C]{格致计划2023冬季}
+  \fancyfoot{}
+  \fancyfoot[C]{第 \thepage 页}
+}
+% not works?
+\ctexset {
+ appendixname = {附录}
+}
+\def\CurriculumScheduleWidth{1.6cm}
+\begin{document}
+% first page is cover
+\begin{titlepage}
+\begin{center}
+    \vspace{-0.5in}
+    \textmd{\textbf{\huge{格致计划2022夏季读书营xx地点}}}\\
+    \normalsize\vspace{0.1in}\Large{神奇的熵}\\
+    \vspace{0.8in}
+     \textbf{\huge{教}}\\
+    \vspace{0.8in}
+     \textbf{\huge{学}}\\
+    \vspace{0.8in}
+     \textbf{\huge{大}}\\
+    \vspace{0.8in}
+    \textbf{\huge{纲}}\\
+    \vspace{0.8in}
+    领读人：赵丰
+\vspace{0.2in}
+\begin{smaller}
+
+版本：\texttt{\version}
+
+\today
+\end{smaller}
+\end{center}
+\end{titlepage}
+\thispagestyle{empty}
+\pagebreak
+\pagestyle{runningpage}
+
+\section{课程简介}
+当我们描述一个不可逆的过程时，比如越来越乱的屋子、世上没有卖后悔药等等，往往会使用熵增这个概念，
+这是我们在谈论物理学上的熵。你有没有发现，一张背景很黑的照片，相比一张阳光下的景物照，
+文件大小更小，我们会用信息量的大小来解释，这是我们在谈论物理学里的熵。
+
+熵为什么会自发地增加？数据最多可压缩到什么程度？玻尔兹曼提出的物理熵和香农提出的信息熵有什么联系？你了解熵背后的科学故事吗？
+如果你对这些问题感兴趣，那么这门半读书半讲授的课程
+适合你。
+
+本门课程属于科学与技术的主题范畴，主要介绍物理熵和信息熵，它们的由来、概念本身与广泛的应用。
+
+\section{教学方法}
+
+\begin{enumerate}
+\item 尽可能多地补充一些社会历史文化方面的知识
+\item 重复解释比较重要的文言实词
+\item 带大家细读英译本的部分章节并分析其中一些翻译的技巧
+\end{enumerate}
+
+\section{课程目标}
+
+
+
+\section{参考资料}
+\begin{enumerate}
+\item 冯端、冯少彤. 溯源探幽:熵的世界. 科学出版社, 2005 (课上阅读材料)
+\item (美)詹姆斯·格雷克. 信息简史. 人民邮电出版社, 2013 (课上阅读材料)
+\item James Gleick. The Information: A History, a Theory, a Flood. Knopf Doubleday Publishing Group, 2011
+\item 张三慧. 大学物理学(第3版).  北京: 清华大学出版社, 2008
+\item 崔爱莉、沈光球 et. al. 现代化学基础(第2版). 北京: 清华大学出版社, 2008
+\item 朱文涛. 基础物理化学(上). 北京: 清华大学出版社, 2011
+\item Pathria, Raj Kumar. Statistical mechanics. Elsevier, 2016.
+\item Cover, Thomas M. Elements of information theory. John Wiley \& Sons, 1999.
+\end{enumerate}
+
+\section{课程安排}
+
+
+
+文本细读过程中设置的讨论问题举例
+
+
+溯源探幽:熵的世界
+
+阅读1-3页，试解释说明瓦特发明蒸汽机属于哪种范式，科学驱动技术还是技术驱动科学？
+
+他山之石
+
+``James Watt’s 1769 invention of his steam engine to solve the problem of pumping water out of British coal mines.
+These familiar examples deceive us into assuming that other major inventions were also responses to perceived needs. In fact, many or most inventions were developed by people driven by curiosity or by a love of tinkering, in the absence of any initial demand for the product they had in mind. Once a device had been invented, the inventor then had to find an application for it."
+
+
+Gun, Germs and Steel
+
+
+\end{document}
