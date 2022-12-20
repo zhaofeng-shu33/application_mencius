@@ -1,0 +1,160 @@
+\documentclass[12pt,colorlinks,linkcolor=true]{moderncv}
+% set the left/right margin such that the main title can be written within one line
+%% ModernCV themes
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+%\renewcommand{\familydefault}{\sfdefault}
+\nopagenumbers{}
+\usepackage{ifsym} 
+\usepackage{ctex}
+\usepackage{url}
+\usepackage{longtable}
+\usepackage{multirow}
+%% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+%% Personal data
+\firstname{\textbf{赵}}
+\familyname{\textbf{丰}}
+\address{\raisebox{-1pt}{\textifsymbol{18}} 清华大学电子工程系}{清华大学深圳国际研究生院}
+\mobile{18800190762} 
+\email{zhaof17@mails.tsinghua.edu.cn}
+%\homepage{https://www.douban.com/people/212256190/} 
+\photo[64pt][0.4pt]{1.5inch.jpg}
+\setlength{\parindent}{2em}
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\setlength\arrayrulewidth{.4pt}
+\setlength\tabcolsep{6pt}
+\begin{document}
+\makecvtitle
+% \section{基本信息}
+% \cvitem{民族}{汉}
+% \cvitem{政治面貌}{群众}
+% \cvitem{籍贯}{山东枣庄}
+% \cvitem{出生年月}{1994/7/11}
+\section{教育背景}
+\cventry{2013--2017}{清华大学数学系}{数学与应用数学}{理学学士学位}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2017至今}{清华大学电子工程系}{信息与通信工程}{博士研究生在读}{}{}
+\section{科研和实习经历}
+%{\raggedleft}
+
+{\raggedright\large 1. 物联网与社会物理信息系统实验室博士研究生\\
+\raggedleft\small \textsc{2018年1月 至今}\par\textit{清华大学深圳国际研究生院}, 深圳 \\[5pt]}
+
+\normalsize{\begin{itemize}
+		\item 在黄绍伦教授的指导下，研究了信息聚类算法、神经网络中的非线性激活函数增益、高维数据插值的样本复杂度等问题
+		\item 与访问学生司马晋一起设计了半正定规划算法，对有额外信息的随机块模型进行社群发现
+		\item 在叶旻教授的指导下研究了多状态的伊辛-随机块模型的精确恢复问题
+\end{itemize}}
+
+{\raggedright\large 2. 使用机器学习的方法提升常微分方程求解器的性能\\
+\raggedleft\small \textsc{2021年7月 - 2021年12月}\par \textit{华为诺亚实验室}, 北京 \\[5pt]}
+
+\normalsize{\begin{itemize}
+		\item 在陈祥导师的指导下，基于神经网络设计了新的 ODE求解器的步长控制器
+\end{itemize}}
+
+%{\raggedleft}
+
+
+%{\raggedleft}
+
+{\raggedright\large 3. 空调监控系统上位机方面的软件开发 \\
+\raggedleft\small \textsc{2019年7月 - 2019年8月}\par\textit{美的空调}, 顺德\\[5pt]}
+
+\normalsize{\begin{itemize}
+		\item 导师是彭有新，使用 .Net 框架 (C\#)进行开发
+\end{itemize}}
+%{\raggedleft\textsc{2017年6月- 2017年8月}\par}
+
+{\raggedright\large 4. 专业实践：静力学仿真实验\\
+\raggedleft\small \textsc{2017年6月- 2017年8月}\par \textit{中车四方},青岛\\[5pt]}
+
+\normalsize{\begin{itemize}
+		\item 导师为王宗正
+		\item 牵引杆静强度仿真及疲劳寿命分析
+		\item 使用有限元分析软件  Abaqus 和 C++ 第三方库 (dealii)
+\end{itemize}}
+
+{\raggedleft\par}
+
+{\raggedright\large 5. 无线网络中定位信息的时空传播机理研究\\
+\raggedleft\small	\textsc{2017年3月 - 2018年1月}\par \textit{清华大学电子工程系},北京 \\[5pt]}
+
+\normalsize{\begin{itemize}
+		\item 本科毕业设计工作，指导老师为电子系沈渊教授
+		\item 协作定位, 费舍尔信息矩阵, 位置误差界, 连分式
+\end{itemize}}
+
+{\raggedright\large 6. 面向初学者的德语电子词典设计\\
+\raggedleft\small	\textsc{2016年 - 2017年3月}\par \textit{本科生学术研究训练项目} \\[5pt]}
+
+\normalsize{\begin{itemize}
+		\item 指导老师为中文系从事计算语言学研究的刘颖教授
+		\item 项目链接：\url{https://github.com/Leidenschaft/Deutsch-Lernen}
+\end{itemize}}
+
+
+\section{研究领域偏好}
+
+\begin{tabular}{rl}
+ 	 & \textit{深度学习的可解释性}\\
+ & \textit{图算法、随机图理论}\\
+  & \textit{科学计算和数值仿真}\\ 
+  & \textit{随机几何、大偏差理论}\\ 
+ \end{tabular}
+ \section{论文发表情况}
+ \begin{enumerate}
+     \item Feng Zhao, Fei Ma, Yang Li, Shao-Lun Huang, Lin Zhang. ``Info-Detection: An Information-Theoretic Approach to Detect Outlier" International Conference on Neural Information Processing (2019)
+     \item Feng Zhao, Xingzhi Niu, Shao-Lun Huang, Lin Zhang. ``Reproducing Scientific Experiment with Cloud DevOps" IEEE World Congress on Services (2020)
+     \item Feng Zhao, Min Ye, Shao-Lun Huang. ``Exact Recovery of Stochastic Block Model by Ising Model" Entropy (2021)
+     \item Feng Zhao, Jin Sima, Shao-Lun Huang. ``On the Optimal Error Rate of Stochastic Block Model with Symmetric Side Information" Information Theory Workshop (2021)
+     \item Feng Zhao, Xiang Chen, Jun Wang, Zuoqiang Shi, Shao-Lun Huang. ``Performance-Guaranteed ODE Solvers with Complexity-Informed Neural Networks" The Symbiosis of Deep Learning and Differential Equations (2021)
+     \item Feng Zhao, Shao-Lun Huang. ``On the Universally Optimal Activation Function for a Class of Residual Neural Networks." AppliedMath (2022)
+ \end{enumerate}
+ 
+\section{语言技能}
+\begin{tabular}{rl}
+    掌握的编程语言
+    & Python, C++,
+    R, Julia \\
+    GitHub 账号 & zhaofeng-shu33 (star: 118) \\
+    大学英语6级: 589 & 大学德语4级: 优秀\\
+    \end{tabular}
+\section{助教与助管工作}
+\begin{tabular}{rll}
+    制造工程体验   & 2017秋 & 指导本科生开发制造工程项目\\
+    数据思维与行为 & 2018春 & 数据科学职业素养课程\\
+    数据学习 &  2020秋 & 机器学习类研究生课程 \\
+    概率论 &   2021春 & \\
+    数学科学中心助管 & 2017春 & 为办公秘书提供信息技术支持
+\end{tabular}
+\section{部分所修课程}
+\begin{tabular}{rl}
+    外语类 & 法语2、俄语3、日语2 \\
+    数学物理类 & 数学规划2、算法分析与设计、数值分析、分析力学、统计力学\\
+    工科类 & 计算机组成原理、统计信号处理、控制工程基础、电子电路实验
+\end{tabular}
+\section{交流经历}
+\begin{tabular}{rl}
+    2016年 & 第七届中国大学生物理学术竞赛（物理实验竞赛）清华代表队成员\\
+    2016年暑假 & 哈尔滨工业大学智能机器人暑期夏令营 \\
+    2020年寒假 & 俄罗斯圣彼得堡理工大学冬令营（机器学习方向）
+\end{tabular}
+
+\section{社会工作和获奖情况}
+
+\begin{tabular}{rl}
+2014年 & 大学生物理、数学竞赛一等奖 \\
+2018年春季学期  & 紫荆志愿者团副团长（院团委）\\
+2018年秋季学期 & 科协主席（院团委） \\
+院设奖学金 & 综合一等奖(2020) 专项二等奖(2021) 社工二等奖 (2019,2020)\\
+组织的志愿活动 & 清华大学爱心公益协会支队长
+\end{tabular}
+
+
+
+\end{document}
